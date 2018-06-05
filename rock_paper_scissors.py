@@ -36,4 +36,4 @@ while (player_score <= 4) and (computer_score <= 4):
 if player_score == 5:
     print("CONGRATULATIONS!! You boss son of a bitch")
 else:
-    print("You're a loser baby but I still love you more")
+    print("Sorry, so close...")
