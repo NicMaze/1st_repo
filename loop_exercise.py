@@ -22,9 +22,18 @@
 # for x in range(10):
 #     print(happyface * x)
 #=================================================
-copy_cat = input("Hey how's it going? ")
+# copy_cat = input("Hey how's it going? ")
+#
+# while copy_cat != "stop copying me":
+#     print(copy_cat)
+#     copy_cat = input()
+# print("you win :(")
 
-while copy_cat != "stop copying me":
-    print(copy_cat)
-    copy_cat = input()
-print("you win :(")
+sounds = ["super", "cali", "fragil", "istic", "expi", "ali", "docious"]
+
+# Define your code below:
+sounds = sounds
+result = ""
+for large_string in sounds:
+    result += large_string.upper()
+print(result)
