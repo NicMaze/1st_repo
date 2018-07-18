@@ -7,6 +7,6 @@ chicago_bears = {"QB": "Mitch Trubisky",
                 }
 print(chicago_bears["Wide Receivers"])
 
-all_caps = {chicago_bears["Wide Receivers"]:value.upper() for value in chicago_bears["Wide Receivers"]}
+all_caps = {value.upper() for value in chicago_bears["Wide Receivers"]}
 print(all_caps)
 

@@ -27,3 +27,4 @@ def coin_toss(num):
 print(sing_happy_birthday("Nick"))
 print(sq_rt(9))
 coin_toss(4)
+
